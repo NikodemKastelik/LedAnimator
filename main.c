@@ -289,9 +289,9 @@ int main(void)
 	sei();
 	
 	loadPattern(emptyPattern, (uint8_t*)currentPattern);
-    while (1) 
-    {
+    	while (1) 
+    	{
 		displayPattern((uint8_t*)currentPattern);
-    }
+    	}
 }
 
